@@ -41,7 +41,7 @@ WiFiEspClient espClient;
 
 PubSubClient client(espClient);
 
-SoftwareSerial soft(2,3); // RX, TX
+SoftwareSerial soft(9,13); // RX, TX
 
 int templimit1=25,templimit2=30;
 int fanspeed1=63,fanspeed2=127,fanspeed3=255;
